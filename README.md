@@ -1,6 +1,6 @@
 Chama se
 QR Parking,
-Estou Em fase de aprensizagem OCm Esse Codigo
+Estou Em fase de aprensizagem com esse Codigo
 O é o Cliente Recebe seu QR code na chegada,
 E simplifique sua jornada de estacionar.
 
