@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qr Parking</title>
+    <link rel="stylesheet" href="Styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.1/build/qrcode.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jsqr/dist/jsQR.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Qr Parking</h1>
+        </header>
+        <main>
+            <section class="input-section">
+                <label for="placa">Placa do Veículo:</label>
+                <input type="text" id="placa" class="input" placeholder="Digite a placa do veículo">
+                <button id="gerar-qrcode" class="btn">Gerar QR Code</button>
+            </section>
+            <section id="qrcode-container" class="qrcode-container"></section>
+            <section class="input-section">
+                <label for="qrcode">Verificar QR Code:</label>
+                <input type="file" id="qrcode" class="input">
+                <button id="verificar-qrcode" class="btn">Verificar QR Code</button>
+            </section>
+            <section id="saida-container" class="saida-container"></section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Sistema de Estacionamento</p>
+        </footer>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>
